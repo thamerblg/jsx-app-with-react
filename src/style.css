@@ -1,0 +1,12 @@
+.title {
+  text-align: center;
+  text-transform: uppercase;
+}
+.red {
+  color: red;
+}
+.photo {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+}
