@@ -1,0 +1,100 @@
+.settings-btn {
+  position: absolute;
+  bottom: 25px;
+  right: 50px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0;
+  line-height: 10px;
+}
+.settings {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1a1314 !important;
+  color: var(--text-color);
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(0);
+  transition: transform 0.3s ease-in-out;
+}
+.settings.hide {
+  transform: translateY(-100%);
+}
+.setting-form label {
+  color: #fff;
+}
+.setting-form select {
+  font-family: "Syne Mono", monospace !important;
+  border: 0;
+  border-radius: 10px;
+  width: 250px;
+  padding: 8px 10px;
+}
+.container {
+  position: relative;
+  background-color: #06599f;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 500px;
+  max-width: 90vw;
+  box-shadow: 0 3px 5px #1a1314;
+  color: #f0f0ed;
+}
+
+h1 {
+  background-color: #1a1314;
+  padding: 5px;
+  margin: 0 0 75px;
+  font-size: 35px;
+  line-height: 40px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  border-radius: 10px;
+}
+h2 {
+  margin-top: 10px;
+}
+input {
+  font-family: "Syne Mono", monospace !important;
+  border: 0;
+  border-radius: 10px;
+  font-size: 14px;
+  width: 350px;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+input:focus-visible,
+select:focus-visible {
+  outline: none;
+}
+.time-container {
+  position: absolute;
+  left: 20px;
+  top: 75px;
+}
+
+.score-container {
+  position: absolute;
+  right: 20px;
+  top: 75px;
+}
+button {
+  display: block;
+  margin: 25px auto 0;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: inherit;
+  border-radius: 10px;
+  padding: 10px 15px;
+  border: none;
+}
+
+button:hover {
+  color: #f0f0ed;
+  background-color: #1a1314;
+}
